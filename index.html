@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+    <html>
+                  <head>
+                      <title>
+                          Pienaa Rashida
+                      </title>
+                      <script>
+                         // var n = prompt("What is your name);
+                         // alert("hello" + n);
+                          //console.log(n);
+                            //one can use var or let with=//
+                            
+                           // var my_name= prompt("Princess Shida");
+                           // var my_name= ("Princess Shida");
+                           // var firstname = "Rashida";
+                           // var lastname = "Pienaa";
+
+                            //  alert(firstname +" " + lastname);
+                            //The curly brackets becomes our code block
+                            //parameters are extra information for functions to work.functions needs parameters to work
+
+                           // var gender = prompt("Gender");
+                           // if(gender== "female") {
+                            //    alert("welcome to the programme"); 
+                             //   } else { alert("sorry for ladies only!");
+                              //  }
+
+                            //
+
+                                function detector(name, year_of_birth, drink){
+
+                                    let min_Age = 17;
+                                    let age = 2020 - year_of_birth
+                                if(age <= min_Age && drink == "beer") 
+                                {
+                                     alert("sorry, you are not qualified for this drink");
+                                } else if (drink != "beer"){
+                                     alert("thanks for purchasiing with with us");
+                                     } 
+                                     else{
+                                         alert("cheers to beer $ life");
+                                     }
+                                }
+                                        //  let userName = prompt("what is your name");
+                                        //  let year_of_birth = prompt("input year of birth");
+                                        //  let drink = prompt("drink type");
+
+                                // detector(userName, year_of_birth, drink);
+                                     
+                             
+
+                                    
+                                             </script>
+
+                      <link rel="stylesheet" href="styles.css" />
+                  </head>
+                     <body>
+                         <a>
+                             <a href="about.html">
+                                 About Us
+                         </a>
+                         <h1 class="shida msg"> welcome to my webpage</h1>
+                         <p>
+                             This is my first web project. Huraaayyyy!!!!
+                             <!-- The <p> represents a paragragh -->
+                         </p>
+                         <p class="msg"> list of fruits</p>
+                 <ul> 
+                         <li> Mango</li>
+                         <li>Orange</li>
+                         <li>Apple</li>
+                </ul>
+<!-- THE H1 REPRESENTS A HEADER 1 -->
+                <h1 class="shida msg">this is a new change</h1>
+                <h1 style="color:red" "text- align: center> about myself</h1>
+                <p> Am a nurse and i love mentoring</p>
+                <p>These are the things I like</p>
+<!-- The <ul> represent unordered listed -->
+                <ul>
+                    <li>trustworthy</li>
+                    <li>discipline</li>
+                    <li>Talkative</li>
+                    <li class="shida">tempered</li>
+                </ul>
+
+                <IMG SRC="puppy.jpg" alt=""width="700" height="400">
+
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div id="greetText"></div>
+                    <input id="name input" type="text" placeholder="enter your name here"/>
+                    <button id="greetbtn">Greet!</button>
+
+                    <script>
+                           let btn = document.getElementById("greetbtn");
+
+                                btn.addEventListener("click", function () {
+                                //   alert("buttom clicked");
+                                let msg = document.getElementById("greetText");
+                                let name = document.getElementById("name input")
+
+                                let val = name.value;
+                                msg.innerText = "Hello, " + val;
+                                 });
+                    </script>
+
+
+                    <!-- In html the input element can create file,email,text,image,numbers,paswords etc  -->
+                    
+<!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates aliquid, nostrum at nihil magni porro ab, culpa molestias ut soluta aliquam neque illum tenetur pariatur exercitationem saepe aspernatur veritatis vero. -->
+                     </body> 
+        </html>
+
+
+
+
+
+
+
+      
+      <!--
+      Programming is giving a computer a set of specefic commands 
+      java script is basically uesd for wesite development. it can be used for both backend and frontend;
+    varible name can only be unique .in programing we have different types of data including:
+    1. string = TEXT Thus they are used in normal text with quotes any thing inside qoute is a string
+    2.number or integers; These are numbers written without any attachments.
+    3.boolean;These are true or false statements 
+     -->
